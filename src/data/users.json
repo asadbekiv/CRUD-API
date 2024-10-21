@@ -1,0 +1,37 @@
+[
+  {
+    "id": "7e0fd803-7f53-4876-90b3-c197707aac33",
+    "username": "Nihal Sarin",
+    "age": 35,
+    "hobbies": [
+      "Coding"
+    ]
+  },
+  {
+    "id": "5a326595-df56-45ca-83ee-3cafd64998f2",
+    "username": "Alireza Firouzja",
+    "age": 21,
+    "hobbies": [
+      "Coding",
+      "Play Chess"
+    ]
+  },
+  {
+    "id": "1f1bb33d-1483-492b-bd71-a55d955e9b21",
+    "username": "Nodirbek Abdusattorov",
+    "age": 20,
+    "hobbies": [
+      "Gym",
+      "Play Chess"
+    ]
+  },
+  {
+    "id": "6479769c-6c92-4572-a78b-2c1b4ed45170",
+    "username": "Magnus Carlsen",
+    "age": 33,
+    "hobbies": [
+      "Watching Chess Streams",
+      "Play Chess"
+    ]
+  }
+]
