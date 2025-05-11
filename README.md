@@ -21,6 +21,8 @@ $ npm run start:dev
 
 # run production mode
 $ npm run start:prod
+
+$ npm run start:multi
 ```
 
 ---
