@@ -20,7 +20,10 @@ export const handleRequest = errorHandler(
   ): Promise<void> => {
     const parseUrl = parse(req.url || '', true);
 
+    
+
     const pathname = parseUrl.pathname || '';
+
     const method = req.method || '';
     const idMatch = pathname.match(/^\/api\/users\/([0-9a-fA-F-]+)$/);
     const userId = idMatch ? idMatch[1] : null;

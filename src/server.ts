@@ -1,8 +1,8 @@
-import * as http from 'http';
+import { createServer } from 'http';
 import { handleRequest } from './routes/userRoutes';
 import 'dotenv/config';
 
-const server = http.createServer((req, res) => {
+const server = createServer((req, res) => {
   req.on('error', (err) => {
     console.error('Request error:', err);
     res.writeHead(400, { 'Content-Type': 'application/json' });
@@ -25,3 +25,5 @@ server.listen(PORT, () => {
 server.on('error', (err) => {
   console.error('Server failure:', err);
 });
+
+export { server };

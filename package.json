@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": ">=20.6.0"
+    "node": ">=22.0.0"
   },
   "name": "crud-api",
   "version": "1.0.0",
@@ -9,8 +9,9 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "start:prod": "npm run build && node dist/server.js"
+    "start:dev": "nodemon src/server.ts",
+    "start:prod": "npm run build && node dist/server.js",
+    "start:multi": "cross-env MULTI=true nodemon src/cluster.ts"
   },
   "author": "Asad Ibodullayev",
   "license": "ISC",
