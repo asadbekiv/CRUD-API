@@ -38,3 +38,8 @@ $ npm run test
 ```
 
 ---
+
+
+All tests woking properly
+
+![Screenshot from 2025-05-19 08-23-26](https://github.com/user-attachments/assets/d3294d6c-3153-415a-8084-4456457244b5)
